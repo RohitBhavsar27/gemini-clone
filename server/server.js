@@ -38,6 +38,9 @@ app.post('/api/gemini', async (req, res) => {
         res.status(500).send('Error generating content');
     }
 });
+app.get('/', (req, res) => {
+    res.send('✅ Gemini backend is up and running!');
+});
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);
