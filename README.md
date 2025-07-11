@@ -8,7 +8,7 @@ This project was created to demonstrate the capabilities of the MERN stack and t
 
 ## Live Demo
 
-You can access the live version of this project here: [https://gemini-clone-ga8y.onrender.com/](https://gemini-clone-ga8y.onrender.com/)
+You can access the live version of this project here: [https://gemini-clone-1-q5ix.onrender.com/](https://gemini-clone-ga8y.onrender.com/)
 
 ## Features
 
