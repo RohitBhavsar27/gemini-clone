@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Gemini Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a clone of the Google Gemini chatbot, built with the MERN stack. It allows users to interact with a large language model in a conversational way.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This project was created to demonstrate the capabilities of the MERN stack and the Google Generative AI API. It is a work in progress, and new features will be added over time.
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can access the live version of this project here: [https://gemini-clone-ga8y.onrender.com/](https://gemini-clone-ga8y.onrender.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+*   **Chat Interface:** A user-friendly interface for interacting with the chatbot.
+*   **Prompt History:** A sidebar that displays a list of recent prompts.
+*   **New Chat:** The ability to start a new chat session.
+*   **Collapsible Sidebar:** The sidebar can be expanded or collapsed to save space.
+*   **Pre-defined Prompts:** A few example prompts to help users get started.
+*   **Loading Animation:** A loading animation is displayed while the chatbot is generating a response.
+*   **Formatted Output:** The chatbot's response is displayed with HTML formatting.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Implementation
 
-### `npm run build`
+### Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*   **Framework:** React
+*   **Styling:** CSS
+*   **State Management:** React Context API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*   **Framework:** Express.js
+*   **API:** Google Generative AI API
+*   **Middleware:** Cors, Dotenv
 
-### `npm run eject`
+## Execution
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run this project, you will need to have Node.js and npm installed on your machine.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frontend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1.  Navigate to the `client` directory.
+2.  Install the dependencies with `npm install`.
+3.  Start the development server with `npm start`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Backend
 
-## Learn More
+1.  Navigate to the `server` directory.
+2.  Install the dependencies with `npm install`.
+3.  Start the server with `npm start`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get started with this project, you will need to create a `.env` file in the `server` directory with the following content:
 
-### Code Splitting
+```
+API_KEY=YOUR_API_KEY
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can get an API key from the [Google Generative AI](https://aistudio.google.com/app/apikey) website.
 
-### Analyzing the Bundle Size
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*   [Create React App](https://github.com/facebook/create-react-app)
+*   [Google Generative AI](https://ai.google.dev/)
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the ISC License.
